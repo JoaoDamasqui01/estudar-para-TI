@@ -1,0 +1,40 @@
+.rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #282c34;
+}
+.rodape .menuRodape {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.rodape .menuRodape a{
+  font-size: 1.2em;
+  line-height: 1,5;
+  color: #fff;
+}
+.rodape .menuRodape a:hover{
+  color: aqua;
+}
+.rodape .direitos p{
+  color: #fff;
+  font-size: 1.2em;
+}
+.rodape .contatos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.rodape .contatos div{
+  border-radius: 5px;
+  background-color: #fff;
+  height: 40px;
+}
+.rodape .contatos img{
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
